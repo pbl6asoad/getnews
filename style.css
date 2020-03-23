@@ -1,0 +1,38 @@
+.container{
+    margin-top: 54px;
+}
+
+.time{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.knopka{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+p{
+    margin: 15px;
+}
+li:hover{   
+    background-color: darkgray;
+    transition: ease-in-out 0.5s;
+}
+
+li{
+    border-left: 1px solid gray;    
+    border-right: 1px solid gray;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+.form-control{
+  border: 0;
+  border-bottom: 1px solid #f48fb1;
+}
+nav{
+    width: 100%;
+    position: fixed!important;
+    top:0;
+    z-index: 1;
+}
